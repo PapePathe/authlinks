@@ -1,0 +1,4 @@
+name = "authlinks"
+description = "simple module that provides a block that display user related links(login, register, reset password)"
+core = "7.x"
+package = "Xarala"
