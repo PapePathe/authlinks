@@ -58,9 +58,8 @@ function authlinks_get_links()
    * user is logged in
    */
   else
-  {  http://localhost/onven.local/node/add/boutique
-    $authlinks .= "<li>". l(t('Créer annonce'), 'node/add/annonce', array('attributes' => array('title' => t('fermez votre session sur on-ven.')))). " | </li>";
-    $authlinks .= "<li>". l(t('Créer boutique'), 'node/add/boutique', array('attributes' => array('title' => t('créez votre boutique en ligne')))). " | </li>";
+  { 
+    
     $authlinks .= "<li>". l(t('Mon profil'), 'user/'. $user->uid, array('attributes' => array('title' => t('fermez votre session sur on-ven.')))). " | </li>";
     $authlinks .= "<li>". l(t('Se déconnecter'), 'user/logout', array('attributes' => array('title' => t('fermez votre session sur on-ven.')))). "</li>";
   }
